@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Requerentes</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.70/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.70/vfs_fonts.js"></script>
+<body>
+  <h1>Formulário de Requerentes</h1>
+  <form id="formRequerentes">
+    <div id="requerentesContainer"></div>
+    <button type="button" onclick="adicionarRequerente()">Adicionar Requerente</button><br><br>
+    <button type="button" onclick="gerarPDF()">Gerar PDF</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
